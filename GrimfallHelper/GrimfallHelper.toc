@@ -1,0 +1,29 @@
+## Interface: 30300
+## Title: |cff00ff96Grimfall|r|cffffffffHelper|r
+## Notes: Generalized build inspector, rune compendium, build value evaluator, spellbook browser, and in-game build sharing for Grimfall WoW (3.3.5a).
+## Author: Grimfall Community & Antigravity
+## Version: 1.1.0
+## SavedVariables: GrimfallHelperDB
+## SavedVariablesPerCharacter: GrimfallHelperCharDB
+## DefaultState: enabled
+
+Core\Constants.lua
+Core\Config.lua
+Core\Utils.lua
+Core\EventBus.lua
+
+Data\RuneData.lua
+
+Modules\Spellbook.lua
+Modules\BuildEvaluator.lua
+Modules\BuildSharing.lua
+Modules\BuildExporter.lua
+Modules\ZoneLevels.lua
+Modules\TooltipHooks.lua
+Modules\StatInspector.lua
+
+UI\UI_Core.lua
+UI\UI_Minimap.lua
+UI\UI_MainFrame.lua
+
+GrimfallHelper.lua
